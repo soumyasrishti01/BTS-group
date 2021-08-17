@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <title>BTS group</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="BTS2-logo.jpeg" class="logo" width="100px">
+            <div class="header-text">
+                <h1>The purpose is to make<br> our Indian BTS army the biggest fandom of BTS. So army let's get it.</h1>
+                <span class="square"></span>
+                <br>
+                <button class="common-btn">Read More</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#must-know">MUST KNOW</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <img src="menu.png" id="menubtn">
+    <section id="about">
+        <div class="about-left-col">
+            <img src="about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <br>
+                <p>If you want to join our BTS fanbase group you can contact to us, In this group we do so much fun and
+                    there are also competitions held here. We have so much fun and we show our love towards BTS. If you
+                    are an army you can join us and become our fanbase member</p>
+            </div>
+        </div>
+    </section>
+    <section id="must-know">
+        <div class="must-know-row">
+            <div class="merch">
+                <center>
+                    <img src="pic-1.png">
+                    <h4>Merch</h4>
+                    <p>You can buy BTS merch</p>
+                    <a href="https://btsmerchshop.org/" class="btn btn-danger">Click Here</a>
+                </center>
+            </div>
+            <div class="signs">
+                <center>
+                    <img src="pic-2.png">
+                    <h4>Signs</h4>
+                    <p>You must know about BTS signs</p>
+                    <a href="https://www.google.com/search?q=BTS+informtion&rlz=1C1CHBF_enIN917IN917&oq=BTS+informtion&aqs=chrome..69i57j0i13l9.4916j0j7&sourceid=chrome&ie=UTF-8"
+                        class="btn btn-danger">Click Here</a>
+                </center>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <h1>Contact Us To Join Our<br> BTS Group</h1>
+                <span class="square"></span>
+                <br>
+                <label>Contact me on <lable style="color: #f67c92;"> soumyasrishti01@gmail.com </lable></label>
+                <br>
+                <span class="square"></span>
+                <form>
+                    <input type="text" name="name" placeholder="Enter Name">
+                    <input type="email" name="email" placeholder="Enter Email">
+                    <input type="number" name="number" placeholder="Enter phone no.">
+
+                    <div class="btn-box">
+                        <button class="common-btn">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-right-col">
+                <img src="contact.png">
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>BTS</h4>
+                        <label>Korea</label>
+                        <br>
+                        <label>Army</label>
+                    </div>
+                    <div class="link-title">
+                        <h4>About Us</h4>
+                        <label>Korea and India</label>
+                        <br>
+                        <label>Indian BTS army</label>
+                    </div>
+                    <div class="link-title">
+                        <h4>Contact Us</h4>
+                        <a href="https://github.com/soumyasrishti01">
+                            <span class="button_icon">
+                                <ion-icon name="logo-github"></ion-icon>
+                                <ion-icon name="logo-facebook"></ion-icon>
+                                <ion-icon name="logo-instagram"></ion-icon>
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="last">
+            <label>Made with <ion-icon id="heart" name="heart-outline"></ion-icon> by Srishti Soumya</label>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        var menuBtn = document.getElementById("menubtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+
+</html>
